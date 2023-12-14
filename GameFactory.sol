@@ -46,4 +46,4 @@ contract GameFactory is Initializable, OwnableUpgradeable, FactoryHelper {
     function setPaused(bool _state) external onlyOwner {
         paused = _state;
     }
-}        
+}  
