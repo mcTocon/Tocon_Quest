@@ -120,3 +120,4 @@ contract NFTbadge is
         super._safeBatchTransferFrom(from, to, ids, values, data);
     }
 }
+
